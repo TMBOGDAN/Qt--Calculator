@@ -1,0 +1,18 @@
+# Build files
+*.o
+*.obj
+*.exe
+*.dll
+*.log
+*.user
+*.pro.user
+*.qrc~
+*.moc
+*.ui~
+build-*/
+
+# Qt Creator specific
+*.autosave
+*.qmlc
+*.jsc
+*.rcc

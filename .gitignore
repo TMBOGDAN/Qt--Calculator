@@ -1,0 +1,25 @@
+# Build folders
+build-*/
+*.user
+*.user.*
+*.pro.user
+*.qmake.stash
+*.o
+*.obj
+*.exe
+*.dll
+*.log
+*.qrc~
+*.moc
+*.ui~
+*.autosave
+*.qmlc
+*.jsc
+*.rcc
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+*.ninja_log
+*.ninja_deps
+*.idx
+Testing/Temporary/
