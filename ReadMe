@@ -1,0 +1,44 @@
+Qt Calculator
+
+This is my first Qt application, a simple calculator built using C++ and Qt. It can do basic arithmetic and evaluates simple expressions.
+
+Features
+
+Add, subtract, multiply, divide
+
+Support for decimal numbers
+
+Interactive buttons and display
+
+Simple expression evaluation
+
+Screenshots
+
+(You can add a screenshot here to show your calculator in action)
+
+How to Build and Run
+
+Clone the repository:
+
+git clone https://github.com/yourusername/your-repo.git
+
+
+Open the project in Qt Creator.
+
+Build and run the application.
+
+Future Improvements
+
+Support for parentheses and operator precedence
+
+Better error handling (invalid input, division by zero)
+
+More advanced functions (square root, power, percentage)
+
+Keyboard input support
+
+Improved UI with resizable buttons, themes, and highlighted input
+
+About Me
+
+This project was my first experience with Qt and GUI development. It helped me learn how to combine C++ logic with a graphical interface.
