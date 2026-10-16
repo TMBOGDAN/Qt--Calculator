@@ -19,8 +19,8 @@ cmake -S . -B build
 cmake --build build
 ```
 
-Run the `Calculator` executable from the build directory. The proposed CMake fix removes a reference to the absent `ignore.gitignore` file and a stray `MANUAL_FINALIZATION` source entry. No automated tests are included.
+Run the `Calculator` executable from the build directory. The CMake configuration removes a reference to the absent `ignore.gitignore` file and a stray `MANUAL_FINALIZATION` source entry. No automated tests are included.
 
 ## Limitations and next steps
 
-Negative-number tokenization and division by zero need explicit validation; add evaluator tests before extending functions. A local `build/` output directory is currently tracked; the proposed `.gitignore` stops future additions, while removing existing tracked output needs separate approval. No screenshot is included, so this README does not display a placeholder.
+Negative-number tokenization and division by zero need explicit validation; add evaluator tests before extending functions. A local `build/` output directory is currently tracked; the `.gitignore` stops future additions, while removing existing tracked output needs separate approval. No screenshot is included, so this README does not display a placeholder.
