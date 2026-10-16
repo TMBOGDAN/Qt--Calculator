@@ -11,7 +11,6 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
-    MANUAL_FINALIZATION
        main.cpp
        mainwindow.cpp
        mainwindow.h
@@ -26,7 +25,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Calculator
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        ignore.gitignore
 
 
 
