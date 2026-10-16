@@ -23,4 +23,4 @@ Run the `Calculator` executable from the build directory. The CMake configuratio
 
 ## Limitations and next steps
 
-Negative-number tokenization and division by zero need explicit validation; add evaluator tests before extending functions. A local `build/` output directory is currently tracked; the `.gitignore` stops future additions, while removing existing tracked output needs separate approval. No screenshot is included, so this README does not display a placeholder.
+Negative-number tokenization and division by zero need explicit validation; add evaluator tests before extending functions. Generated `build/` output has been removed from the tracked tree and is ignored for future builds. No screenshot is included, so this README does not display a placeholder.
